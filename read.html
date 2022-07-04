@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>指阅空间</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+
+</style>
+</head>
+
+<body>
+  <!--Main Navigation-->
+  <header>
+    <section class="p-5 color text-light text-center text-sm-start">
+        <!--padding -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <div class="container-fluid w-100">
+                  <a class="navbar-brand" href="#">阅读空间</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">首页</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">电影</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         图书
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">文学</a></li>
+                          <li><a class="dropdown-item" href="#">悬疑</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">科幻</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">音乐</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-primary" type="submit">Go</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+</section>
+    <!--/.Navbar-->
+
+
+
+    <section class="p-5  text-light text-center text-sm-start" style="width:max-content; height:auto;right: 0%; bottom: 30%; position: fixed;">
+      <div class="list-group">
+          <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+            导航
+          </button>
+          <button type="button" class="list-group-item list-group-item-action"> <a href="music.html" class="text-black">倾听耳语</a></button>
+          <button type="button" class="list-group-item list-group-item-action"> <a href="exercise.html" class="text-black">运动不息</a></button>
+          <button type="button" class="list-group-item list-group-item-action"> <a href="life.html" class="text-black">生活碎片</a></button>
+          <button type="button" class="list-group-item list-group-item-action"> <a href="read.html" class="text-black">指阅空间</a></button>
+          <button type="button" class="list-group-item list-group-item-action"> <a href="code.html" class="text-black">编程之旅</a></button>
+        </div>
+      </section>
+
+      <section class="p-5  text-black text-center text-sm-start" style="right: 0%; bottom: 5%; position: fixed;">
+        <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action  btn-success " aria-current="true" style="width: 150px; height: 150px; border-radius:50%; border: none ;align-content: center;">
+              <a href="http://t.csdn.cn/caS5h "  target="_blank" class="text-black"> <h1 class="ms-2"> <strong>总 结</strong> </h1> </a>
+            </button>
+        
+          </div>
+        </section>
+  
+    <div id="intro" class="view">
+
+      <div class=" rgba-black-strong">
+
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+          <div class="row d-flex justify-content-center text-center">
+
+            <div class="col-md-10">
+
+              <!-- Heading -->
+              <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">阅读</h2>
+
+              <!-- Divider -->
+              <hr class="hr-light">
+
+              <!-- Description -->
+              <h4 class="white-text my-4">与书结缘，就有了梦想的诗意与远方；与书相伴，可以感知世界的阳光和温度，更可以真正领略到中国汉语文字的智慧之光。</h4>
+              <button type="button" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!--/.Mask-->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5">
+    <div class="container">
+
+      <!--Section: Best Features-->
+      <section id="best-features" class="text-center">
+
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-4 mb-1">
+            <i class="fas fa-camera-retro fa-4x orange-text"></i>
+            <h4 class="my-4">风景</h4>
+            <p class="grey-text">有人说，风景在远方，熟悉的地方没有风景；有人说，风景在身边，只要你懂得观察和欣赏；
+                也有人说，风景在旁观者的眼里，你站在桥上时，看风景的人正在楼上看你。而我要说，人生，最美的风景就在路上，过程之美无可比拟。
+
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 mb-1">
+            <i class="fas fa-heart fa-4x orange-text"></i>
+            <h4 class="my-4">收藏</h4>
+            <p class="grey-text">有九种感觉你才是真的在恋爱：
+                生理上的性冲动、美丽的感觉、亲爱的感觉、羡慕及尊敬的感觉、赞许的爱情、受到尊重的自尊、占有欲、行动自由、深重的同情心</p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 mb-1">
+            <i class="fas fa-bicycle fa-4x orange-text"></i>
+            <h4 class="my-4">旅游</h4>
+            <p class="grey-text">人生是一段旅程，在旅行中遇到的每一个人，每一件事与每一个美丽景色，都有可能成为一生中难忘的风景。
+                一路走来，我们无法猜测将是迎接什么样的风景，没有预兆目的地在哪，可是前进的脚步却始终不能停下，因为时间不允许我们在任何地方停留，
+                只有在前进中不断学会选择，学会体会，学会欣赏。</p>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!--Section: Best Features-->
+
+      <hr class="my-5">
+
+      <!--Section: Examples-->
+      <section id="examples" class="text-center">
+
+        <!-- heading -->
+        <h2 class="mb-5 font-weight-bold">好书推荐</h2>
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4">
+
+            <div class="view overlay z-depth-1-half">
+              <img src="https://pic4.zhimg.com/50/v2-1943a36c79aba3912d0766cce751ce74_720w.jpg?source=54b3c3a5" class="img-fluid">
+              <a href="#!">
+                <div class="rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <h4 class="my-4 font-weight-bold">被讨厌的勇气</h4>
+            <p class="grey-text">这本书最难能可贵的是，他不只是形而上的理论，
+                告诉你：人的烦恼来源于人际关系。还告诉你理论与现实的关系，不断回到现实层面所面临的困难和应对解决的方法。</p>
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="view overlay z-depth-1-half">
+              <img src="https://img11.360buyimg.com/n0/jfs/t1/65331/39/9144/379432/5d6f24d6E4d966a55/f14e9a7b5d8b7afe.jpg" class="img-fluid">
+              <a href="#!">
+                <div class="rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <h4 class="my-4 font-weight-bold">从一到无穷大</h4>
+            <p class="grey-text">《从一到无穷大》是当今世界最有影响的科普经典名著之一，作者用生动通俗的语言即将数学、物理和生物学等内容巧妙融合，
+                并以一种轻松、有趣的方式展现给读者，让读者感受科学的魅力，启迪科学的思维。</p>
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="view overlay z-depth-1-half">
+              <img src="https://pic3.zhimg.com/50/v2-c6054287cdd733c764706da1b3e997c7_720w.jpg?source=54b3c3a5" class="img-fluid">
+              <a href="#!">
+                <div class="rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <h4 class="my-4 font-weight-bold">娱乐至死</h4>
+            <p class="grey-text">在这个娱乐至死的年代，一切的一切正如作者所说，如果文化生活被重新定义为娱乐的周而复始，
+                如果严肃的公众对话变成了幼稚的婴儿语言。
+                总而言之，如果人民退化为被动的受众，而一切的公共事物形同杂耍，那么这个民族就会发现自己危在旦夕。</p>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4">
+
+            <div class="view overlay z-depth-1-half">
+              <img src="http://tva1.sinaimg.com/mw690/007CgMUHly1fzzalzmbtvj30ob0yhq5t.jpg" class="img-fluid">
+              <a href="#!">
+                <div class="rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <h4 class="my-4 font-weight-bold">三体</h4>
+            <p class="grey-text">大到无限大，小到无限小</p>
+
+               <p>从成为宇宙之神到同归绝对零度的毁灭</p> 
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="view overlay z-depth-1-half">
+              <img src="http://image.96192.com/product_pic/20201113/5665903.jpg" class="img-fluid">
+              <a href="#!">
+                <div class=" rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <h4 class="my-4 font-weight-bold">沉默的大多数</h4>
+            <p class="grey-text">沉默是一种人类学意义上的文化，一种生活方式。它的价值观很简单：开口是银，沉默是金。
+                一种文化之内，往往有一种交流信息的独特方式，甚至是特有的语言，有一些独有的信息，文化可以传播。</p>
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="view overlay z-depth-1-half">
+              <img src="http://image12.bookschina.com/2015/20150408/6962168.jpg" class="h-420px">
+              <a href="#!">
+                <div class=" rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <h4 class="my-4 font-weight-bold">动物农场</h4>
+            <p class="grey-text">Animal Farm 是一部政治寓言体小说，讲述了发生在英格兰的“动物革命”。动物们因不堪人类的压迫，在猪的带领下奋起反抗，
+                最终赶走了农庄主，实现了动物当家作主的愿望。可好景不长，领导集团发生内斗，胜利者将失败者驱逐出境，获得了农场的绝对领导权。
+                之后，胜利的一方变本加厉，堕落成了比人更可怕的剥削者、统治者、独裁者。</p>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!--Section: Examples-->
+
+      <hr class="my-5">
+
+      <!--Section: Gallery-->
+      <section id="gallery">
+
+        <!-- Heading -->
+        <h2 class="mb-5 font-weight-bold text-center">图书一角</h2>
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+              <!--Indicators-->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+              </ol>
+              <!--/.Indicators-->
+              <!--Slides-->
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <div class="view">
+                    <img class="d-block w-100" src="https://bpic.588ku.com/back_origin_min_pic/21/03/30/db1048030aab0f48abce1f437f0fbda0.jpg!/fw/750/quality/99/unsharp/true/compress/true" style="width: 500px;height:300px;"
+                      alt="First slide">
+                    <div class="rgba-black-light"></div>
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="h3-responsive">小憩</h3>
+                    <p>图书馆</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <!--Mask color-->
+                  <div class="view"> 
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" style="width: 500px;height:300px;"
+                      alt="Second slide">
+                    <div class="rgba-black-strong"></div>
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="h3-responsive">放松</h3>
+                    <p>亲近自然</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <!--Mask color-->
+                  <div class="view">
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" style="width: 500px;height:300px;"
+                      alt="Third slide">
+                    <div class="rgba-black-slight"></div>
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="h3-responsive">自由</h3>
+                    <p>畅游天地</p>
+                  </div>
+                </div>
+              </div>
+              <!--/.Slides-->
+              <!--Controls-->
+              <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+              <!--/.Controls-->
+            </div>
+            <!--/.Carousel Wrapper-->
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6">
+
+            <!--Excerpt-->
+            <a href="" class="teal-text">
+              <h6 class="pb-1"><i class="fas fa-heart"></i><strong> Lifestyle </strong></h6>
+            </a>
+            <h4 class="mb-3"><strong>心灵的归宿</strong></h4>
+            <p>图书馆，一个城市最安静的角落，却涌动着最活跃的思想。它保存着文明的火种，也滋养着未来的新知，
+              它是一些人休憩心灵的桃花源，另一些人眺望世界的窗口。它是迷宫，是港口，也是乐园，我们的心态开阔于世界，
+              才是真正地走出去，寻找真正的诗和远方。
+            </p>
+
+            <p>图书馆是个神奇的地方。看似大家都安静地低头不动，实际上每个人都在以不同的步伐走向属于自己的远方。</p>
+            <p>by <a><strong>Mr.Qing</strong></a>, 06/07/2022</p>
+            <a class="btn btn-primary btn-md">Read more</a>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <hr class="my-5">
+
+
+      <section id="contact">
+
+        <!-- Heading -->
+        <h2 class="mb-5 font-weight-bold text-center">中国国家图书馆预约</h2>
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-lg-5 col-md-12">
+            <!-- Form contact -->
+            <form class="p-5 grey-text text-center">
+              <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
+                <input type="text" id="form1" class="form-control form-control-sm">
+                <label for="form1">姓名</label>
+              </div>
+              <div class="md-form form-sm"> <i class="fas fa-envelope prefix"></i>
+                <input type="text" id="form2" class="form-control form-control-sm">
+                <label for="form2">电子邮箱</label>
+              </div>
+              <div class="md-form form-sm"> <i class="fas fa-tag prefix"></i>
+                <input type="text" id="form3" class="form-control form-control-sm">
+                <label for="form3">主题</label>
+              </div>
+              <div class="md-form form-sm"> <i class="fas fa-pencil-alt prefix"></i>
+                <textarea type="text" id="form4" class="md-textarea form-control form-control-sm" rows="4"></textarea>
+                <label for="form4">您的建议</label>
+              </div>
+              <div class="text-center mt-4">
+                <button class="btn btn-primary">提交 <i class="far fa-paper-planeml-1"></i></button>
+              </div>
+            </form>
+            <!-- Form contact -->
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-7 col-md-12">
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-12 mb-3">
+
+                <p><i class="fas fa-map fa-1x mr-2 grey-text"></i>北京市,中关村</p>
+
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-3">
+
+                <p><i class="fas fa-building fa-1x mr-2 grey-text"></i>Mon - Fri, 9:00-21:00</p>
+
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-3">
+
+                <p><i class="fas fa-phone fa-1x mr-2 grey-text"></i>4006006988</p>
+
+              </div>
+              <!--Grid column-->
+              <div ><img src="http://www.ikuku.cn/wp-content/uploads/user/u1497/POST/p242362/1442562809483669-818x610.jpg" alt="img-fluid" style="height: 400px; " >
+              </div>
+            </div>
+            <!--Grid row-->
+
+             
+          </div>
+
+
+        </div>
+
+
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="page-footer unique-color-dark">
+
+    <!-- Social buttons -->
+    <div class="primary-color">
+      <div class="container">
+        <!--Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+
+          <!--Grid column-->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0 white-text">在这里提交您的建议</h6>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+            <!--Facebook-->
+            <a class="fb-ic ml-0">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!--Twitter-->
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!--Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Linkedin-->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text mr-lg-4"> </i>
+            </a>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+      </div>
+    </div>
+    <!-- Social buttons -->
+
+    <!--Footer Links-->
+    <div class="container mt-5 mb-4 text-center text-md-left">
+      <div class="row mt-3">
+
+        <!--First column-->
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+          <h6 class="text-uppercase font-weight-bold">
+            <strong>图书漂流</strong>
+          </h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><h6>带走满腹知识，留下一架好书</h6>
+            <h6>顽强的毅力可以征服世界上任何一座高峰。</h6>
+            <h6>吾生而有涯，而知也无涯。</h6>
+            <h6>读书切戒在慌忙，涵咏工夫兴味长。</h6>
+            <h6>人的知识愈多，人的本身也愈臻完善。</h6>
+          </p>
+        </div>
+        <!--/.First column-->
+
+        <!--Second column-->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">
+            <strong>阅读方式</strong>
+          </h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">纸质书</a>
+          </p>
+          <p>
+            <a href="#!">Kindle</a>
+          </p>
+          <p>
+            <a href="#!">手机</a>
+          </p>
+          <p>
+            <a href="#!">二手</a>
+          </p>
+        </div>
+        <!--/.Second column-->
+
+        <!--Third column-->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">
+            <strong>电子书库</strong>
+          </h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">ePUBee</a>
+          </p>
+          <p>
+            <a href="#!">鸠摩搜书</a>
+          </p>
+          <p>
+            <a href="#!">书伴(kindle必备)</a>
+          </p>
+          <p>
+            <a href="#!">书语者</a>
+          </p>
+        </div>
+        <!--/.Third column-->
+
+        <!--Fourth column-->
+        <div class="col-md-4 col-lg-3 col-xl-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <strong>联系方式</strong>
+          </h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home  mr-3"></i> 北京市, 中关村, 南大街</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> https://blog.csdn.net/weixin_52288941</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i>4006006988</p>
+          <p>
+            <i class="fas fa-print mr-3"></i>010-88545426</p>
+        </div>
+        <!--/.Fourth column-->
+
+      </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2022 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> Mr_Qing.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+
+  <!-- Footer -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/carousel.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript">
+    // Carousel options
+    $('#carousel-example-2').carousel({
+      interval: 2000, // 间隔时间, 默认5000毫秒, 如果设置为false则不会自动播放
+      pause: false, // 鼠标移上后是否暂停, 默认暂停
+      wrap: false, // 是否循环轮播, 默认循环
+    });
+
+    /** 定义函数, 加载指定坐标的地图 */
+    function showMap() {
+      var myLatlng = new sogou.maps.LatLng(29.4902, 106.5714);
+      var myOptions = {
+        zoom: 13,
+        center: myLatlng,
+        mapTypeId: sogou.maps.MapTypeId.ROADMAP
+      };
+      map = new sogou.maps.Map(document.getElementById("map-container"), myOptions);
+      marker = new sogou.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: "重庆交通大学"
+      });
+    }
+    // 设置事件侦听器, 当窗口加载时调用 showMap 函数
+    sogou.maps.event.addDomListener(window, 'load', showMap);
+  </script>
+
+</body>
+
+</html>
